@@ -10,6 +10,7 @@ Robot arm axes are mapped as follows:
  * RightHatY -> shoulder             -> Z axis  
  * Button2   -> wrist joint pivot    -> A axis  
  * Button1   -> gripper              -> C axis  
+
 Optional bottons on top of the controller can be used for other features on the robot arm (lights, sound, activate laser, activate machine gun, etc.).  These are mapped as follows:  
  * Square button -> Opt1  
  * Circle button -> Opt2  
