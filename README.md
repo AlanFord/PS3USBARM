@@ -1,6 +1,10 @@
 # PS3USBARM
 ## PS3 joystick control for a 6-axis killer robot arm
 
+The sketch requires the use of the **USB Host Shield Library Version 2.0**.  It can be downloaded and installed from the 
+Arduino IDE menu by selecting "Sketch", "Include Library", "Manage Libraries...".  Scroll down the list of libraries until you find the USB Host Shield Library 2.0, select it, and click on the "Install" button.
+
+
 This is a simple arduino sketch to read a PS3 basic controller connected to a USB host shield.  Control of 6 axes is accomplished by using the two joysticks and the "front" buttons.  The axes and buttons are mapped as follows:
 
 Robot arm axes are mapped as follows:  
