@@ -17,6 +17,7 @@ Optional bottons on top of the controller can be used for other features on the 
  * Triangle Button -> Opt4  
 
 The control data is transmitted out the serial port using a two-byte data structure that is mapped as follows:  
+
 MSB  |                                                LSB   
  Bit: |     15   |  14   |   13  |   12   |  11 | 10 | 9  | 8  | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0   
  Event: | Opt4 | Opt3 | Opt2 | Opt1 | C+ | C- | B+ | B- | A+ | A- | Z+ | Z- | Y+ | Y- | X+ | X-   
